@@ -72,6 +72,6 @@ class JBM extends CI_Controller {
 
 	public function login()
 	{
-		$this->template->render('V_JBM_Login');
+		$this->load->view('V_JBM_Login');
 	}
 }
